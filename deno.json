@@ -1,8 +1,19 @@
 {
-  "unstable": ["kv", "temporal"],
+  "unstable": [
+    "kv",
+    "temporal"
+  ],
   "imports": {
     "@fedify/fedify": "jsr:@fedify/fedify@^0.13.0",
     "@hongminhee/x-forwarded-fetch": "jsr:@hongminhee/x-forwarded-fetch@^0.2.0",
     "@logtape/logtape": "jsr:@logtape/logtape@^0.4.2"
+  },
+  "deploy": {
+    "project": "edcafa4a-8f19-49a2-9c25-9b5be1e18b49",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "server.ts"
   }
 }

@@ -2,10 +2,12 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "jsr:@fedify/fedify@0.11.3": "jsr:@fedify/fedify@0.11.3",
       "jsr:@fedify/fedify@^0.13.0": "jsr:@fedify/fedify@0.13.0",
       "jsr:@hongminhee/x-forwarded-fetch@^0.2.0": "jsr:@hongminhee/x-forwarded-fetch@0.2.0",
       "jsr:@hugoalh/http-header-link@^1.0.2": "jsr:@hugoalh/http-header-link@1.0.2",
       "jsr:@hugoalh/is-string-singleline@1.0.2": "jsr:@hugoalh/is-string-singleline@1.0.2",
+      "jsr:@logtape/logtape@0.4.2": "jsr:@logtape/logtape@0.4.2",
       "jsr:@logtape/logtape@^0.4.0": "jsr:@logtape/logtape@0.4.2",
       "jsr:@logtape/logtape@^0.4.2": "jsr:@logtape/logtape@0.4.2",
       "jsr:@std/bytes@^1.0.0": "jsr:@std/bytes@1.0.2",
@@ -23,6 +25,25 @@
       "npm:url-template@^3.1.1": "npm:url-template@3.1.1"
     },
     "jsr": {
+      "@fedify/fedify@0.11.3": {
+        "integrity": "87a7254ea3135037fe80ca7a6e5c7d81d2af06511f0c4ad35c0399c88eb5a36c",
+        "dependencies": [
+          "jsr:@logtape/logtape@^0.4.0",
+          "jsr:@std/bytes@^1.0.0",
+          "jsr:@std/encoding@^0.224.3",
+          "jsr:@std/http@^0.224.4",
+          "jsr:@std/semver@^0.224.3",
+          "npm:@phensley/language-tag@^1.8.1",
+          "npm:asn1js@^3.0.5",
+          "npm:json-canon@^1.0.1",
+          "npm:jsonld@^8.3.2",
+          "npm:multibase@^4.0.6",
+          "npm:multicodec@^3.2.1",
+          "npm:pkijs@^3.1.0",
+          "npm:uri-template-router@^0.0.16",
+          "npm:url-template@^3.1.1"
+        ]
+      },
       "@fedify/fedify@0.13.0": {
         "integrity": "272a405015f984e08e48f90e3cc46a1f2daa4e498a7016fdf40a9487472ddf77",
         "dependencies": [
