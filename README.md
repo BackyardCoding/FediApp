@@ -26,7 +26,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 ## Contact
-Created by [@mdumbuya](https://github.com/backyardcoding) - feel free to contact me!
+Created by [@BackyardCoding](https://github.com/backyardcoding) - feel free to contact me!
 
 ## Screenshots
 
